@@ -8,7 +8,11 @@ This integration has been merged into HA core and is expected to appear in 2022.
 
 ## Installation
 
-To start with it, place the repository under `.config` or add this [GitHub repo](https://github.com/CorantGmbH/airq-custom_integration/) as a [custom repository to HACS](https://hacs.xyz/docs/faq/custom_repositories).
+This integration can be installed
+1. by manually placing its source code in HA configuration folder, following the steps below,
+2. or through HACS, by adding this [GitHub repo](https://github.com/CorantGmbH/airq-custom_integration/) as a [custom repository to HACS](https://hacs.xyz/docs/faq/custom_repositories).
+
+To install it manually:
 
 1. Using the tool of choice open the directory (folder) for your HA configuration (where you find `configuration.yaml`).
 2. If you do not have a `custom_components` directory (folder) there, you need to create it.
@@ -43,16 +47,36 @@ Currently, the integration supports the following sensors:
 
 | Sensor name          | Unit of measurement |
 |----------------------|---------------------|
+| Ammonia              | µg/m³               |
+| Chlorine             | µg/m³               |
 | CO                   | mg/m³               |
 | CO2                  | ppm                 |
+| Dew Point            | °C                  |
+| Ethanol              | µg/m³               |
+| Formaldehyde         | µg/m³               |
+| H2S                  | µg/m³               |
+| Health Index         | %                   |
 | Humidity[^rel]       | %                   |
+| Absolute Humidity    | g/m³                |
+| Hydrogen             | µg/m³               |
+| Methane              | %                   |
+| N2O                  | µg/m³               |
+| NO                   | µg/m³               |
 | NO2                  | µg/m³               |
 | Ozone                | µg/m³               |
+| Oxygen               | µg/m³               |
+| Performance Index    | %                   |
 | PM1, PM25, PM10[^pm] | µg/m³               |
 | Pressure             | hPa                 |
+| Relative Pressure    | hPa                 |
+| Propane              | %                   |
 | SO2                  | µg/m³               |
+| Noise                | dBa                 |
+| Noise (Maxumum)      | dBa                 |
+| Radon                | Bq/m³               |
 | Temperature          | °C                  |
 | VOC[^voc]            | ppb                 |
+| VOC (Industrial)     | ppb                 |
 
 [^rel]: Relative
 

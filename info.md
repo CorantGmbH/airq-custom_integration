@@ -1,7 +1,9 @@
 [![GitHub Release][releases-shield]][releases]
+
 [![License][license-shield]][license]
 
 [![hacs][hacsbadge]][hacs]
+
 [![Community Forum][forum-shield]][forum]
 
 _Component to integrate with [air-Q][airq]._
@@ -15,15 +17,18 @@ Platform | Description
 {% if not installed %}
 ## Installation
 
-1. Click install.
-1. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "air-Q".
+1. Click download.
+1. In the HA UI, start by navigating to `Settings` -> `Devices & Services`, click `Add integration` and search for `air-Q`.
 
 {% endif %}
 
+## Configuration
 
-## Configuration is done in the UI
+The integration is set up entirely in HA UI, as opposed to `configuration.yaml`.
 
-<!---->
+After adding the integration, you will prompted for the IP address of the device or the first 5 characters of the serial number, as well as the device password.
+
+For this integration to communicate with the device, both must be connected to the same WiFi network.
 
 ***
 

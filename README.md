@@ -16,7 +16,7 @@ To start with it, place the repository under `.config` or add this [GitHub repo]
 4. Download _all_ the files from the `custom_components/airq/` directory (folder) in this repository.
 5. Place the files you downloaded in the new directory (folder) you created.
 6. Restart Home Assistant
-7. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Integration blueprint"
+7. In the HA UI navigate to `Settings` -> `Devices & Services`, click `Add integration` and search for `air-Q`.
 
 Using your HA configuration directory (folder) as a starting point you should now also have this:
 
@@ -33,9 +33,7 @@ custom_components/airq/translations/en.json
 
 The integration is set up entirely in HA UI, as opposed to `configuration.yaml`.
 
-Start by navigating to `Settings` -> `Devices & Services`, click `Add integration` and search for `air-Q`.
-
-You will prompted for the IP address of the device or the first 5 characters of the serial number, as well as the device password.
+After adding the integration, you will prompted for the IP address of the device or the first 5 characters of the serial number, as well as the device password.
 
 For this integration to communicate with the device, both must be connected to the same WiFi network.
 

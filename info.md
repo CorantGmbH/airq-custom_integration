@@ -2,7 +2,6 @@
 [![License][license-shield]][license]
 
 [![hacs][hacsbadge]][hacs]
-
 [![Community Forum][forum-shield]][forum]
 
 _Component to integrate with [air-Q][airq]._

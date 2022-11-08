@@ -34,6 +34,6 @@ Platform | Description
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
 [forum]: https://forum.air-q.com/
 [license]: https://github.com/CorantGmbH/airq-custom_integration/blob/main/LICENSE
-[license-shield]: https://img.shields.io/github/license/custom-components/integration_blueprint.svg?style=for-the-badge
-[releases-shield]: https://img.shields.io/github/release/custom-components/integration_blueprint.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/CorantGmbH/airq-custom_integration.svg?style=for-the-badge
+[releases-shield]: https://img.shields.io/github/release/CorantGmbH/airq-custom_integration.svg?style=for-the-badge
 [releases]: https://github.com/CorantGmbH/airq-custom_integration/releases

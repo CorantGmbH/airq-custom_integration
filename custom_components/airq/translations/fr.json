@@ -1,0 +1,31 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Cet appareil est déjà configuré et disponible pour Home Assistant"
+        },
+        "error": {
+            "cannot_connect": "Échec de la connexion",
+            "invalid_auth": "Mot de passe invalide",
+            "unknown": "Erreur inattendue"
+        },
+        "step": {
+            "configure": {
+                "data": {
+                    "scan_interval": "Intervalle de balayage en secondes",
+                    "show_average": "Utiliser les valeurs moyennes d'air-Q (sinon utiliser des valeurs instantanées)"
+                },
+                "description": "Récupération de données",
+                "title": "Configurer l'intégration"
+            },
+            "user": {
+                "data": {
+                    "ip_address": "IP de l'appareil ou mDNS (par exemple '123ab_air-q.local')",
+                    "password": "Mot de passe"
+                },
+                "description": "Fournir l'adresse IP ou mDNS de l'appareil et son mot de passe",
+                "title": "Identifier l'appareil"
+            }
+        }
+    }
+}
+

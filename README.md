@@ -91,3 +91,13 @@ Currently, the integration supports the following sensors:
 [^voc]: Volatile organic compounds
 
 After the setup, separate entities will be created for each of the aforementioned sensors, found in your device.
+
+[hacs]: https://hacs.xyz
+[hacsbadge]: https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge
+[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
+[forum]: https://forum.air-q.com/
+[license]: https://github.com/CorantGmbH/airq-custom_integration/blob/main/LICENSE
+[license-shield]: https://img.shields.io/github/license/CorantGmbH/airq-custom_integration.svg?style=for-the-badge
+[releases-shield]: https://img.shields.io/github/release/CorantGmbH/airq-custom_integration.svg?style=for-the-badge
+[releases]: https://github.com/CorantGmbH/airq-custom_integration/releases
+[downloads-shield]: https://img.shields.io/github/downloads/CorantGmbH/airq-custom_integration/total?style=for-the-badge

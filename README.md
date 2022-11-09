@@ -1,3 +1,9 @@
+[![GitHub Release][releases-shield]][releases]
+[![Downloads][downloads-shield]][releases]
+[![License][license-shield]][license]
+[![hacs][hacsbadge]][hacs]
+[![Community Forum][forum-shield]][forum]
+
 # air-Q device integration
 
 This custom component allows to integrate the sensors, provided by your [air-Q](https://www.air-q.com/) device, into Home Assistant.

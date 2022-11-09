@@ -1,5 +1,7 @@
 [![GitHub Release][releases-shield]][releases]
 
+[![Downloads][downloads-shield]][releases]
+
 [![License][license-shield]][license]
 
 [![hacs][hacsbadge]][hacs]
@@ -41,3 +43,4 @@ For this integration to communicate with the device, both must be connected to t
 [license-shield]: https://img.shields.io/github/license/CorantGmbH/airq-custom_integration.svg?style=for-the-badge
 [releases-shield]: https://img.shields.io/github/release/CorantGmbH/airq-custom_integration.svg?style=for-the-badge
 [releases]: https://github.com/CorantGmbH/airq-custom_integration/releases
+[downloads-shield]: https://img.shields.io/github/downloads/CorantGmbH/airq-custom_integration/total?style=for-the-badge

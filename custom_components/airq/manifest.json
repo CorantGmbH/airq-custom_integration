@@ -3,10 +3,10 @@
   "name": "air-Q",
   "config_flow": true,
   "issue_tracker": "https://github.com/CorantGmbH/airq-custom_integration/issues",
-  "requirements": ["aioairq==0.2.4"],
+  "requirements": ["aioairq==0.3.0"],
   "codeowners": ["@Sibgatulin", "@dl2080"],
   "iot_class": "local_polling",
   "loggers": ["aioairq"],
   "integration_type": "hub",
-  "version": "0.1.2"
+  "version": "0.2.0"
 }

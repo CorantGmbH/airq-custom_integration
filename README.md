@@ -10,7 +10,7 @@ This custom component allows to integrate the sensors, provided by your [air-Q](
 
 ## Notice
 
-This integration has been merged into HA core and is expected to appear in 2022.12 release. This repository provides a possibility to access it until said release.
+This integration has been merged into HA in late 2022. Since the time HA 2022.12 was release this repository is obsolete and should not be used.
 
 ## Installation
 
